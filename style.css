@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section, h2, p {
+  padding: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;         /* Makes it round */
+  object-fit: cover;          /* Keeps it neatly cropped */
+  display: block;             /* Makes centering work */
+  margin: 20px auto;          /* Centers horizontally */
+  border: 3px solid #444;     /* Optional: adds a border */
+}
+
+.about {
+  background-color: #f1f5f9;
+  padding: 60px 20px;
+}
+
+.about h2{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #343a40;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  color: #555;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.projects {
+  background-color: #f1f5f9;
+  padding: 60px 20px;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color:#343a40;
+}
+
+.about-projects {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  color: #555;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.skills {
+  background-color: #f1f5f9;
+  padding: 60px 20px;
+}
+
+.skills h2 {
+    text-align: center;
+    color:#333;
+    margin-bottom: 40px;
+}
+
+.about-skills {
+  background-color: #f8f9fa;
+  max-width: 400px;
+  border-radius: 20px;
+  margin: 0 auto;
+  color: #555;
+  padding: 30px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.contact {
+  padding: 60px 20px;
+  background-color: #f1f5f9;
+}
+
+.contact h2 {
+  text-align: center;
+  color:#333;
+  margin-bottom: 40px;
+}
+
+.about-contact {
+  max-width: 400px;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: #555;
+  padding: 30px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
